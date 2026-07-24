@@ -45,13 +45,27 @@ Esta documentación incluye:
 Para comenzar con BNB Chain:
 
 ```bash
-# Clonar el repositorio
-git clone https://github.com/adfjadfj16-a11y/bnb-chain.github.io
+# Clonar el repositorio (apunta al repositorio oficial)
+git clone https://github.com/bnb-chain/bnb-chain.github.io.git
 cd bnb-chain.github.io
-
-# Ver la documentación
-# Abre index.html en tu navegador
 ```
+
+### Probar y servir localmente
+
+Recomendado para contribuir y revisar la documentación localmente:
+
+```bash
+# Instalar Bundler (si no está instalado)
+gem install bundler
+
+# Instalar dependencias
+bundle install
+
+# Servir el sitio localmente (por defecto en http://127.0.0.1:4000)
+bundle exec jekyll serve --livereload
+```
+
+> Nota: Si usas rbenv/rvm o un contenedor, asegúrate de tener Ruby y Bundler compatibles con la versión requerida por el proyecto.
 
 ## 📝 Contribuir
 
