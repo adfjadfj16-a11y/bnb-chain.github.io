@@ -50,7 +50,7 @@ users need to use the token-recover tool to get their binded BEP2/BEP8
 assets. For more information, please refer to [this
 tutorial](https://docs.google.com/document/d/1rMWwYGt-s6FXcRiUrBSN8dtOU96HDz0T3GaZyzbo7VQ/edit?pli=1#heading=h.df0svx3bznak).
 
-## For Atomic Swap Project Owers
+## For Atomic Swap Project Owners
 
 Because in [the first sunset hardfork](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md), the
 creation and deposit of atomic swaps will be disabled, so project owners
