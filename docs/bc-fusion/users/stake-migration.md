@@ -1,7 +1,7 @@
 
 # Stake Migration
 
-The BNB Chain community has introduced [BEP333: BNB Chain Fusion](https://github.com/bnb-chain/BEPs/pull/333), a
+The BNB Chain community has introduced [BEP-333: BNB Chain Fusion](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md), a
 significant update that retires the BNB Beacon Chain from the ecosystem. This transition introduces native staking on
 the BNB Smart Chain, following the Feynman Hardfork. Stakeholders now have the opportunity to migrate their existing
 delegations to the new native staking system through two primary methods:

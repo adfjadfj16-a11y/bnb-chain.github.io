@@ -4,7 +4,7 @@ Token binding was introduced to faciliate that one token can circulate in both B
 
 - If a token is binded, then it can be transferred bewteen BC and BSC for different use cases.
 After [the final sunset
-hardfork](https://github.com/bnb-chain/bEPs/pull/333), the cross chain between BC and BSC will be shutdown. 
+hardfork](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md), the cross chain between BC and BSC will be shutdown. 
 However, users still can use token recover tool to recover the binded assets on BSC (but it is much more complex compared to crosschain transfer).
 - If a token is not binded, after the final sunset hardfork, the assets cannot be recovered anymore. 
 Token owners or issuers should take actions to bind their valueable tokens.

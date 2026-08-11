@@ -4,7 +4,7 @@ HTLC based atomic swaps are introduced in
 [BEP3](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP3.md),
 to facilitate payment and asset exchanges between different blockchains.
 For BC fusion, in [the first sunset
-hardfork](https://github.com/bnb-chain/bEPs/pull/333), the
+hardfork](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md), the
 creation and deposit of atomic swaps will be disabled, project owners
 (e.g., cross-chain exchanges, bridges) and users should be aware of this
 and take proactive steps.
@@ -33,7 +33,7 @@ transaction is looks like this:
 ./bnbcli token refund --swap-id <swapID> --from <from-key> --chain-id Binance-Chain-Tigris --trust-node --node http://dataseed1.bnbchain.org:80
 ```
 
-If no proactive refunds are submitted, in [the second sunset hardfork](https://github.com/bnb-chain/bEPs/pull/333), all
+If no proactive refunds are submitted, in [the second sunset hardfork](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md), all
 existing atomic swaps will be automatically refunded to the creators'
 accounts on Beacon Chain. The refund will proceed in many Beacon Chain
 blocks, depending on how many atomic swaps still exist on the
@@ -45,15 +45,14 @@ refer to [this tutorial](./assets.md).
 ### After BC Fusion
 
 If the refunded assets are not transferred to BSC
-before [the final sunset fork](https://github.com/bnb-chain/bEPs/pull/333),
+before [the final sunset fork](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md),
 users need to use the token-recover tool to get their binded BEP2/BEP8
 assets. For more information, please refer to [this
 tutorial](https://docs.google.com/document/d/1rMWwYGt-s6FXcRiUrBSN8dtOU96HDz0T3GaZyzbo7VQ/edit?pli=1#heading=h.df0svx3bznak).
 
 ## For Atomic Swap Project Owers
 
-Because in [the first sunset hardfork](https://github.com/bnb-chain/bEPs/pull/333), the
+Because in [the first sunset hardfork](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md), the
 creation and deposit of atomic swaps will be disabled, so project owners
 need to disable related functions in their projects IN ADVANCE and
 notify their uses to take proactive actions to refund their tokens.
-

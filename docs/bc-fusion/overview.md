@@ -38,8 +38,7 @@ All stakholders (e.g., token holders/owners, validators, project owners) should 
 releated annonuncements and take actions proactively.
 
 For more information about BNB Chain fusion, please refer
-to [BEP-333](https://github.com/bnb-chain/BEPs/pull/333?ref=bnbchain.ghost.io).
+to [BEP-333](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md).
 
 For the roadmap and milestons of BNB Chain fusion, please refer
 to [the blog](https://www.bnbchain.org/en/blog/bnb-chain-fusion-roadmap).
-

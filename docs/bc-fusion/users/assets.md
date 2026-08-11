@@ -1,8 +1,8 @@
 
 # Asset Management
 
-The BNB Chain community recently introduced [BEP333: BNB Chain
-Fusion](https://github.com/bnb-chain/BEPs/pull/333). This
+The BNB Chain community recently introduced [BEP-333: BNB Chain
+Fusion](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP333.md). This
 BEP aims to retire the BNB Beacon Chain from the BNB Chain ecosystem.
 The goal is to enhance the development efficiency, security, and asset
 utilization efficiency of BSC. It also aims to reduce the maintenance
