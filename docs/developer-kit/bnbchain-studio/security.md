@@ -42,6 +42,13 @@ The keyless Service can only *request* signatures via `InvokeAgentRuntime`; it c
 - **Allowed by default:** EIP-3009 `TransferWithAuthorization` / `ReceiveWithAuthorization` against network-default deployments
 - **Denied by default:** ERC-2612 `Permit`, Permit2 `PermitSingle`/`PermitBatch` — even if your code mistakenly allowlists them
 
+> **Nested-signing caveat:** the risk is not limited to an obvious `Permit`.
+> A malicious 402 can disguise a nested `Permit` or signature-transfer payload as
+> a harmless `TransferWithAuthorization`, so the outer type looks valid while the
+> embedded authorization still grants spending power. Treat Permit variants as
+> denylisted regardless of nesting or wrapper format; do not expand the allowlist
+> based on the outer message alone.
+
 Extend signing for new contracts or primary types via `app/agent/studio.toml`:
 
 ```toml

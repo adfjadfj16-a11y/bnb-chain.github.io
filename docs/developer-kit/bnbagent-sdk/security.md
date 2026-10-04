@@ -28,6 +28,14 @@ malicious server could be talked into signing a Permit that grants unbounded
 allowance, draining the wallet over time. The default policy refuses
 unconditionally; you opt in explicitly when you know what you're signing.
 
+> **Nested-signing caveat:** the danger is not limited to a bare `Permit`.
+> A malicious 402 can wrap a `Permit`/signature-transfer payload inside an
+> otherwise valid-looking `TransferWithAuthorization` flow so the outer type
+> looks harmless while the nested authorization still grants spending power.
+> The wallet must treat the Permit family as denylisted regardless of nesting or
+> outer message shape; never relax the policy just because the challenge is
+> labeled as an EIP-3009 transfer.
+
 **Canonical example — direct SDK usage:**
 
 ```python
